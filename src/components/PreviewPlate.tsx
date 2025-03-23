@@ -82,10 +82,6 @@ const PreviewPlate: React.FC<PreviewPlateProps> = ({
             >
               {playing ? "Pause" : "Play"}
             </button>
-            <VolumeControl
-              volume={volume}
-              onVolumeChange={handleVolumeChange}
-            />
           </div>
         )}
       </div>
